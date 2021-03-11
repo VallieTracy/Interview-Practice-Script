@@ -2,26 +2,34 @@ import random
 from random import choice
 import time
 
-interview_questions = [
-    'A', 'B', 'C', 'D'
-]
+def scrape():
+    # interview_questions = ['A', 'B', 'C', 'D']
+    
+    # q1 = choice(interview_questions)
+    # return f"Q1 = {q1}"
+    my_list = []
 
-def find_questions(arr):
-    question1 = choice(arr)
-    question2 = choice(arr)
-    return question1, question2
+    file = 'questions.py'
+    with open(file, 'r') as text:
+        lines = text.read().replace('\n', '')
+        for line in lines:
+            my_list.append(line)
+    return f"{my_list}"
 
-questions = find_questions(interview_questions)
-first_q = questions[0]
-second_q = questions[1]
 
-def print_questions(str1, str2):
-    print(f"Vallie, {str1}?")
-    time.sleep(2)
-    print(f"Vallie, {str2}?")
 
-print_questions(first_q, second_q)
 
-practice_dict = {'Question One': first_q,
-                 'Question Two': second_q
-                 }
+
+# my_list = []
+
+# file = 'questions.py'
+# with open(file, 'r') as text:
+#     lines = text.read().replace('\n', '')
+#     for line in lines:
+#         my_list.append(line)
+# print(my_list)
+
+
+
+
+
