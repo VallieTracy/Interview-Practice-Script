@@ -1,7 +1,7 @@
 import random
 from random import choice
 
-def scrape():
+def random_q1():
     file = open('questions_list1.txt', 'r+')
     lines = [line for line in file.readlines()]
     file.close()
@@ -9,7 +9,7 @@ def scrape():
     q1 = choice(lines)
     return q1
 
-def scrape2():
+def random_q2():
     file = open('questions_list2.txt', 'r+')
     lines = [line for line in file.readlines()]
     file.close()
