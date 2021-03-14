@@ -12,8 +12,10 @@ app = Flask(__name__)
 # 3. Define what to do when a user hits the index route
 @app.route("/")
 def home():
-    print("Server received request for 'Home' page...")
-    return render_template('index.html')
+    question1 = practice.scrape()
+    templateData = render_template('index.html')
+    redirect_url = '/testing_page'
+    return render_template('index.html', question1 = question1, redirect_url = redirect_url)
 
 
 # 4. Define what to do when a user hits the /about route
