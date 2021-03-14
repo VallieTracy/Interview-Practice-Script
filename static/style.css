@@ -1,7 +1,29 @@
-.jumbotron {
-    background-color: aquamarine;
+#words {
+    color: rgb(15, 82, 206);
 }
 
-body {
-    background-color: blanchedalmond!important;
+.container-fluid {
+    width: 100vw;
+    height: 100vh;
+    background-color: aqua;
+    position: relative;
+}
+
+.header {
+    text-align: center;
+    font-size: 33px;
+    text-transform: uppercase;
+}
+
+.body-text {
+    position: absolute;
+    text-align: center;
+    font-size: 54px;
+    top: 30%;
+}
+
+.button {
+    position: absolute;
+    bottom: 1%;
+    right: 3%;
 }

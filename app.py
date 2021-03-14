@@ -21,9 +21,8 @@ def home():
 # 4. Define what to do when a user hits the /about route
 @app.route("/question2")
 def questions():
-    desired = question_functions.random_q2()
-    return desired
-  
+    question2 = question_functions.random_q2()
+    return render_template('index2.html', question2 = question2)
 
 if __name__ == "__main__":
     app.run(debug=True)

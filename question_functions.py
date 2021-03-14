@@ -7,7 +7,7 @@ def random_q1():
     file.close()
 
     q1 = choice(lines)
-    return q1
+    return f"Vallie, {q1}"
 
 def random_q2():
     file = open('questions_list2.txt', 'r+')

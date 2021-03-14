@@ -21,24 +21,14 @@
 
 <body>
     <div class = "container-fluid">
-      <div class = "row">
-        <div class = "col-md-12 header">
-          <u>interview question</u>
+        <div class = "row">
+          <div class = "col-md-12 qs">
+            INTERVIEW QUESTIONS
+          </div>
         </div>
-      </div>
-
-      <div class = "row">
-        <div class = "col-md-12 body-text">
-          <div id = "words">{{ question1 }}</div>
-          <button type="button" class="btn btn-light">Question 2</button>
-        </div>
-      </div>
+    
+      <h1 id = "words">{{ question2 }}</h1>
       
-      <script id = "words">
-        setTimeout(function(){
-            window.location.href = '{{ redirect_url }}';
-        }, 60000);
-      </script>
     
   
   
