@@ -21,25 +21,28 @@
 
 <body>
     <div class = "container-fluid">
-      <div class = "row">
-        <div class = "col-md-12 header">
-          <u>next question</u>:
+        <div class = "row">
+            <div class = "col-md-12 header">
+                <p>you did it!</p>
+            </div>
         </div>
-      </div>
 
-      <div class = "row">
-        <div class = "col-md-12 body-text">
-          <div id = "words">{{ question2 }}</div>
-          <a type="button" class="btn btn-light" href = "/times_up">Press Me!</a>
-          <p class = "small-text">*Press me if you finish before the 60 seconds are up!</p>
+        <div class = "row">
+            <div class = "col-md-12">
+              <img src = "../static/minions_yay.gif" alt = "yay-gif">
+            </div>
         </div>
-      </div>
+
+        <div class = "row">
+            <div class = "col-md-12 body-text2">
+                <a type="button" class="btn btn-light" id = "again" href = "/">Go Again?</a>
+            </div>
+        </div>
       
-      <script id = "words">
-        setTimeout(function(){
-            window.location.href = '{{ redirect_url }}';
-        }, 60000);
-      </script>  
+
+      
+      
+       
   
     </div>
   

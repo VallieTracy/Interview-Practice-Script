@@ -22,7 +22,13 @@ def home():
 @app.route("/question2")
 def questions():
     question2 = question_functions.random_q2()
-    return render_template('index2.html', question2 = question2)
+    templateData = render_template('index2.html')
+    redirec_url = '/times_up'
+    return render_template('index2.html', question2 = question2, redirect_url = redirec_url)
+
+@app.route("/times_up")
+def times_up():
+    return render_template('index3.html')
 
 if __name__ == "__main__":
     app.run(debug=True)
