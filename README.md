@@ -18,4 +18,6 @@ As I've been going through the job hunt, I've realized I need practice interview
 5. Type `python app.py` into the terminal    
 6. Copy and paste `http://127.0.0.1:5000/` into your browser and voila!
 
-##### If you'd like to lessen (or greaten) the time lapse for the questions, first navigate to index.html and/or index2.html.
+##### If you'd like to lessen (or greaten) the time lapse for the questions, first navigate to index.html and/or index2.html. It's `line 41` in both files.  You'll see some javascript code; this is what creates the time lapse.  It's currently set to 60,000ms ( = 60 seconds).  Change it to what you like.
+
+
