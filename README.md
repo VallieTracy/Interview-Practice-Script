@@ -12,5 +12,5 @@ As I've been going through the job hunt, I've realized I need practice interview
 
 ## Clone and Run the Repo:
 1. Clone to your desktop
-2. Install Flask with the command `pip install Flask`
-
+2. Install Flask with the command `pip install Flask` if you don't already have it installed in your virtual environment
+3. Go into the 
