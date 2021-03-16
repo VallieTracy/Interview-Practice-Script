@@ -15,6 +15,6 @@ As I've been going through the job hunt, I've realized I need practice interview
 2. Install Flask with the command `pip install Flask` if you don't already have it installed in your virtual environment
 3. Go into question_functions.py, line 10, and insert your name in place of `Vallie`      
 4. Put your mouse over the folder where this repo is cloned on your computer, right click, click on 'Git Bash Here' to pull up the Git Bash terminal
-5. Type `python app.py'     
+5. Type `python app.py` into the terminal    
 6. Copy and paste `http://127.0.0.1:5000/` into your browser and voila!
 
