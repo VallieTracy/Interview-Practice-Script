@@ -10,5 +10,7 @@ As I've been going through the job hunt, I've realized I need practice interview
 * File <b>question_functions.py</b> which contains two functions that return the random questions that are then called in the app.py file.                        
 * Two .txt files (<b>questions_list1.txt, questions_list2.txt</b>). These files contain various questions, not organized in any particular manner.  These files are called within the two functions found in the question_functions.py file.                        
 
-## Clone and Run the Repo
+## Clone and Run the Repo:
+1. Clone to your desktop
+2. Install Flask with the command `pip install Flask`
 
