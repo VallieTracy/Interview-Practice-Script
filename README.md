@@ -2,9 +2,6 @@
 As I've been going through the job hunt, I've realized I need practice interviewing.  So I decided to take some initiative and wrote a python script to help me practice!  I wanted to create something short that I could practice everyday.  So I create a Flask app that would ask me two random questions (with a 60 second delay between them) and then I could start over if I wanted.
 
 
-![interview_script](/static/interview_script.PNG)                
-*A screenshot example of my 'dark' map visualization, zoomed in on the United States* 
-
 ## Files Included in this Repo:
 * <b>Static folder</b> that includes the style.css.  (<i>NOTE - </i>When using Flask, the style.css needs to be stored in a folder titled 'Static')                
 * <b>Templates folder</b> that contains three separarte html pages. (1 for the first question, 1 for the second question, and 1 for the final page which gives the option to go back to the start)                      
@@ -23,3 +20,7 @@ As I've been going through the job hunt, I've realized I need practice interview
 ##### If you'd like to lessen (or greaten) the time lapse for the questions, first navigate to index.html and/or index2.html. It's `line 41` in both files.  You'll see some javascript code; this is what creates the time lapse.  It's currently set to 60,000ms ( = 60 seconds).  Change it to what you like.
 
 Flask Website: https://flask.palletsprojects.com/en/1.1.x/
+
+
+Home Screen:
+![interview_script](/static/interview_script.PNG)                
