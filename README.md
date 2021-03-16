@@ -3,3 +3,4 @@ As I've been going through the job hunt, I've realized I need practice interview
 
 ## Files Included in this Repo:
 1.) Static folder that includes the style.css.  (<i>NOTE - </i>When using Flask, the style.css needs to be stored in a folder titled 'Static')
+2.) 
