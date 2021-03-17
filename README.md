@@ -3,7 +3,7 @@ As I've been going through the job hunt, I've realized I need practice interview
 
 
 ## Files Included in this Repo:
-* <b>Static folder</b> that includes the style.css.  (<i>NOTE - </i>When using Flask, the style.css needs to be stored in a folder titled 'Static')                
+* <b>Static folder</b> that includes the style.css.  (<i>NOTE - </i>When using Flask, the style.css needs to be stored in a folder titled 'static')                
 * <b>Templates folder</b> that contains three separarte html pages. (1 for the first question, 1 for the second question, and 1 for the final page which gives the option to go back to the start)                      
 * File <b>app.py</b> which contains three routes.  The three routes correspond to the three different index.html files.                       
 * File <b>question_functions.py</b> which contains two functions that return the random questions that are then called in the app.py file.                        
